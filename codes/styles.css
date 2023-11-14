@@ -1,0 +1,37 @@
+#menuIcon {
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+}
+#menuIcon:hover {
+  animation: magnify 1s forwards;
+  -webkit-animation: magnify 1s forwards;
+}
+@keyframes magnify {
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+}
+#menuIframe {
+  border: none;
+}
+
+#instaLink img {
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+#insta {
+  display: none;
+}
+#insta.active {
+  display: block;
+}
